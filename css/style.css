@@ -9,6 +9,7 @@ body {
 }
 
 a {
+  color: #fff;
   text-decoration: none;
   font-size: 18px !important;
 }
@@ -18,11 +19,8 @@ a:visited {
   color: inherit;
 }
 
-header * {
-  color: #fff;
-}
-
 .header {
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,8 +41,7 @@ header * {
 }
 
 .contentWrapper {
-  /* flex-wrap: wrap; */
-  /* flex-flow: column wrap; */
+  display: flex;
   text-align: center;
   width: 60%;
 }
@@ -116,11 +113,13 @@ header * {
   display: flex;
   justify-content: space-between;
   padding: 40px 0px;
+  flex-wrap: wrap;
 }
 
 .card {
   background: #fff;
   width: 30%;
+  flex-basis: 30%;
 }
 
 .cardWrapper {
@@ -142,7 +141,7 @@ header * {
   margin-bottom: 40px;
 }
 
-.container {
+.slogan {
   padding: 70px 0px;
 }
 
@@ -152,7 +151,9 @@ header * {
 }
 
 .split {
+  padding: 1.5em;
   width: 50%;
+  height: 25vh;
 }
 
 .leftBox {
@@ -161,4 +162,20 @@ header * {
 
 .rightBox {
   background: #333;
+}
+
+.leftBoxCaption {
+  margin-bottom: 40px;
+}
+
+.footer {
+  background: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerLink {
+  color: #2690d4;
 }
