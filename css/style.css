@@ -1,0 +1,138 @@
+html,
+body {
+  height: 100%;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px !important;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+  position: relative;
+}
+
+.bg-image {
+  background-image: url("./../img/background.png");
+  background-color: #000;
+  filter: blur(1.5px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: inherit;
+}
+
+.contentWrapper {
+  text-align: center;
+  width: 60%;
+}
+
+.headerWrapper {
+  position: absolute;
+  text-align: center;
+  width: 60%;
+}
+
+.greeting {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.caption {
+  margin-top: 30px;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.readMore {
+  background: #333333;
+  border: 1px solid #fff;
+  padding: 15px 25px;
+  transition: all 0.5s ease;
+}
+
+.readMore:hover {
+  background: #fff;
+  color: #000;
+}
+
+.firstSection,
+.secondSection,
+.thirdSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstSection,
+.thirdSection {
+  background: #eaeaea;
+}
+
+.secondSection {
+  background: #333;
+}
+
+.firstSection {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.title {
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.aboutWebDev {
+  columns: 2;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px;
+}
+
+.card {
+  background: #fff;
+  width: 30%;
+}
+
+.cardWrapper {
+  padding: 1.5em;
+}
+
+.pic {
+  width: 100%;
+}
+
+.cardTitle {
+  font-weight: 700;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.cardInfo {
+  font-size: 17px;
+  margin-bottom: 40px;
+}
