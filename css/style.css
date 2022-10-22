@@ -1,7 +1,5 @@
-html,
 body {
-  height: 100%;
-  font-family: "Open Sans", sans-serif !important;
+  font-family: "Open Sans", sans-serif;
 }
 
 * {
@@ -9,14 +7,9 @@ body {
 }
 
 a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 18px !important;
-}
-
-a:visited {
-  text-decoration: none;
   color: inherit;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 .header {
@@ -47,7 +40,7 @@ a:visited {
 }
 
 .headerWrapper {
-  position: absolute;
+  z-index: 1;
   text-align: center;
   width: 60%;
 }
@@ -80,8 +73,7 @@ a:visited {
 
 .firstSection,
 .secondSection,
-.thirdSection,
-.fourthSection {
+.thirdSection {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,6 +106,7 @@ a:visited {
   justify-content: space-between;
   padding: 40px 0px;
   flex-wrap: wrap;
+  gap: 30px 20px;
 }
 
 .card {
@@ -148,17 +141,25 @@ a:visited {
 
 .fourthSection {
   color: #fff;
-  background: #333;
+  display: flex;
+  justify-content: center;
   text-align: center;
+  align-items: stretch;
+  flex-wrap: wrap;
 }
 
 .split {
+  min-width: 600px;
+  max-width: 750px;
   padding: 2em;
-  width: 50%;
 }
 
 .leftBox {
   background: #2690d4;
+}
+
+.rightBox {
+  background: #333;
 }
 
 .leftBoxCaption {
