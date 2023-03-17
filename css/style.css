@@ -1,5 +1,5 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 * {
@@ -22,7 +22,7 @@ a {
 }
 
 .bg-image {
-  background-image: url("./../img/background.png");
+  background-image: url('./../img/background.png');
   background-color: #000;
   filter: blur(1.5px);
   background-position: center;
@@ -150,8 +150,8 @@ a {
 }
 
 .split {
-  min-width: 600px;
-  max-width: 750px;
+  width: 50%;
+  flex-grow: 1;
   padding: 2em;
 }
 
